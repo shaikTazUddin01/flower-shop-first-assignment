@@ -218,11 +218,12 @@ img.instragram-item-img {
 
 .latest-deals-conatnt {
     background-image: url('images/Rectangle\ 9.png');
-    padding: 121px 220px;
+    padding:80px 220px;
     text-align: center;
     background-repeat: no-repeat;
     border-radius: 8px;
-    background-size: cover;
+    background-size: contain;
+    /* padding-bottom: 121px; */
 }
 
 h1.latest-deals-title {

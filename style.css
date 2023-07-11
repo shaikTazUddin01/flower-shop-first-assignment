@@ -89,7 +89,7 @@ p.featured-flowers-description {
 .featured-flowers-container {
     display: flex;
     justify-content: space-between;
-    gap: 40px !important;
+    gap: 24px !important;
 }
 
 .featured-flowers-item {
@@ -100,8 +100,7 @@ img.featured-flowers-img {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     padding: 110px 74px 0px 74px;
-    /* height: 300px; */
-    width: 60%;
+    width: 57%;
     text-align: center;
 }
 
@@ -203,7 +202,7 @@ p.instagram-description {
 .instagram-item {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 24px;
 }
 
 img.instragram-item-img {
@@ -268,20 +267,19 @@ p.latest-deals-description {
 h1.contact-title{
     font-size: 40px;
     text-align: center;
+    color: #272727;
 }
 .contact-contant{
     display: flex;
     margin-top: 45px;
     gap: 40px;
-    /* justify-content: space-between; */
 }
 .contact-form {
-    /* display: flex; */
     width: 50%;
 }
 .contact-form label{
-    /* display: block; */
     font-size: 20px;
+    color: #272727;
 }
 .col{
     display: flex;
@@ -304,7 +302,7 @@ h1.contact-title{
     border: 1px solid #E55473;
     border-radius: 10px;
     margin-top: 10px;
-    color: #272727;
+    color: #9b9b9b;
 }
 .button-col {
     display: flex;
@@ -320,10 +318,14 @@ h1.contact-title{
     gap: 10px;
     margin-bottom: 18px;
 }
-.address-descrription{
-    margin-top: 10px;
+h1.address-title{
+    color: #272727;
 }
-.address-descrription>a>i {
+p.address-descrription{
+    margin-top: 10px;
+    color: #757778;
+}
+p.address-descrription>a>i {
     color: #ffffff;
     font-size: 20px;
     border: 1px solid;
